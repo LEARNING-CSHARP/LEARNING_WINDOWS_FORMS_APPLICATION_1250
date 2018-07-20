@@ -29,6 +29,11 @@
 			{
 				second = 0;
 				minute++;
+
+				if (minute > 60)
+				{
+					minute = 0;
+				}
 			}
 		}
 	}
