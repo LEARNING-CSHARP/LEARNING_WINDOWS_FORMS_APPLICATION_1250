@@ -33,6 +33,7 @@
 				if (minute > 60)
 				{
 					minute = 0;
+					second = 0;
 				}
 			}
 		}
