@@ -16,8 +16,10 @@
 			second = 0;
 		}
 
-		private void titleTimer_Tick(object sender, System.EventArgs e)
+		private void TitleTimer_Tick(object sender, System.EventArgs e)
 		{
+			// دو متغیر ذیل نباید به صورت محلی تعریف شوند
+			// و باید بیرون تابع و در سطح کلاس تعریف شوند
 			//int minute = 0;
 			//int second = 0;
 
@@ -25,12 +27,12 @@
 
 			second++;
 
-			if (second > 60)
+			if (second > 59)
 			{
 				second = 0;
 				minute++;
 
-				if (minute > 60)
+				if (minute > 59)
 				{
 					minute = 0;
 					second = 0;

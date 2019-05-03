@@ -45,7 +45,7 @@
 			// 
 			this.titleTimer.Enabled = true;
 			this.titleTimer.Interval = 1000;
-			this.titleTimer.Tick += new System.EventHandler(this.titleTimer_Tick);
+			this.titleTimer.Tick += new System.EventHandler(this.TitleTimer_Tick);
 			// 
 			// MainForm
 			// 
